@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "localizedName": "Enhanced Dynamite Mixer",
-  "description": "Mixes Pyratite and Sand into HP Dynamite.",
+  "description": "Mixes Blast Compound and Sand into HP Dynamite.",
   "health": 700,
   "size": 2,
   "hasItems": true,
@@ -74,7 +74,7 @@
     "power": 3,
     "items": {
       "items": [
-        "pyratite/1",
+        "blast-compound/1",
         "sand/1"
       ]
     }
@@ -87,6 +87,6 @@
   "envRequired": 0,
   "category": "crafting",
   "outputItems": [
-    "dynamite/2"
+    "hp-dynamite/2"
   ]
 }
