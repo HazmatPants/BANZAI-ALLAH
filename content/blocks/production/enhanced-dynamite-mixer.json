@@ -3,7 +3,7 @@
   "localizedName": "Enhanced Dynamite Mixer",
   "description": "Mixes Blast Compound and Sand into HP Dynamite.",
   "health": 700,
-  "size": 2,
+  "size": 3,
   "hasItems": true,
   "craftTime":160,
   "itemCapacity": 10,
