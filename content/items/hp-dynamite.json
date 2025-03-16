@@ -3,4 +3,6 @@
     "name": "HP Dynamite",
     "color": "aaaa00",
     "description": "High Performance Dynamite"
+    "explosiveness": 1.5
+    "flammability": 1
 }

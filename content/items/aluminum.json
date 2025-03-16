@@ -3,4 +3,5 @@
     "name": "Aluminum",
     "color": "d4e4e4",
     "description": "Cheap and light material used for aircraft production"
+    "hardness": 3
 }
