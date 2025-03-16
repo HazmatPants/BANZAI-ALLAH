@@ -1,8 +1,8 @@
 {
     "type": "item",
-    "name": "HP Dynamite",
+    "name": "TATB",
     "color": "aaaa00",
-    "description": "High Performance Dynamite",
+    "description": "Triaminotrinitrobenzene. High Performance Dynamite",
     "explosiveness": 4,
     "flammability": 0.1
 }
