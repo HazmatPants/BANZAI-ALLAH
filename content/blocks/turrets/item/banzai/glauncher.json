@@ -17,12 +17,12 @@
     "inaccuracy": 0,
     "ammoTypes": {
       "blast-compound": {
-        "damage": 20,
+        "damage": 45,
         "speed": 6,
         "width": 6,
         "height": 15,
         "shots": 1,
-        "splashDamageRadius": 32,
+        "splashDamageRadius": 24,
         "splashDamage": 90,
         "pierce": false,
         "type": "ArtilleryBulletType",
@@ -32,7 +32,8 @@
         "fromColor": "FF8E38FF",
         "toColor": "F3E979FF",
         "smokeEffect": "shootBigSmoke",
-        "ammoMultiplier": 2
+        "ammoMultiplier": 2,
+        "despawnEffect": "explosion"
       }
     },
     "requirements": [

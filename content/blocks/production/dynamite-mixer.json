@@ -1,0 +1,92 @@
+{
+  "type": "GenericCrafter",
+  "localizedName": "ynamite Mixer",
+  "description": "Mixes Pyratite and Sand into Dynamite.",
+  "health": 700,
+  "size": 2,
+  "hasItems": true,
+  "craftTime":160,
+  "itemCapacity": 10,
+  "craftEffect": {
+    "type": "multiEffect",
+    "effects": [
+      {
+        "type": "ParticleEffect",
+        "particles": 4,
+        "length": 15,
+        "lifetime": 15,
+        "interp": "circleOut",
+        "sizeInterp": "pow5In",
+        "lightColor": "66B1FFFF",
+        "colorFrom": "787878",
+        "colorTo": "66B1FFFF",
+        "sizeFrom": 4.5,
+        "sizeTo": 0
+      },
+      {
+        "type": "ParticleEffect",
+        "particles": 3,
+        "length": 20,
+        "lifetime": 20,
+        "interp": "circleOut",
+        "sizeInterp": "pow5In",
+        "lightColor": "66B1FFFF",
+        "colorFrom": "787878",
+        "colorTo": "66B1FFFF",
+        "sizeFrom": 3.5,
+        "sizeTo": 0
+      },
+      {
+        "type": "ParticleEffect",
+        "particles": 2,
+        "length": 25,
+        "lifetime": 30,
+        "interp": "circleOut",
+        "sizeInterp": "pow5In",
+        "lightColor": "66B1FFFF",
+        "colorFrom": "787878",
+        "colorTo": "66B1FFFF",
+        "sizeFrom": 2,
+        "sizeTo": 0
+      }
+    ]
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawRegion",
+        "spinSprite": true,
+        "suffix": "-spinner",
+        "rotateSpeed": 10
+      }
+    ]
+  },
+  "hasPower": true,
+  "hasLiquids": false,
+  "updateEffect": "none",
+  "ambientSound": "centrifuge",
+  "ambientSoundVolume": 0.2,
+  "consumes": {
+    "power": 3,
+    "items": {
+      "items": [
+        "pyratite/1",
+        "sand/1"
+      ]
+    }
+  },
+  "requirements": [
+    "steel/60",
+    "copper/60",
+    "graphite/50"
+  ],
+  "envRequired": 0,
+  "category": "crafting",
+  "outputItems": [
+    "dynamite/2"
+  ]
+}
