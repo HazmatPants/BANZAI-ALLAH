@@ -1,0 +1,12 @@
+{
+  "localizedName": Dynamite Block,
+  "description": A block of dynamite
+  "type": "Wall",
+  "buildCostMultiplier": 2,
+  "health": 80,
+  "size": 1,
+  "requirements": [
+    "dynamite/6"
+  ],
+  "category": "defense",
+}
