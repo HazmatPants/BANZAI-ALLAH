@@ -1,11 +1,11 @@
 {
   "type": "GenericCrafter",
-  "localizedName": "Blast Furnace",
-  "description": "Blasts steel and copper into advanced alloy",
+  "localizedName": "Enhanced Dynamite Mixer",
+  "description": "Mixes Blast Compound and Sand into HP Dynamite.",
   "health": 700,
   "size": 2,
   "hasItems": true,
-  "craftTime": 120,
+  "craftTime":160,
   "itemCapacity": 10,
   "craftEffect": {
     "type": "multiEffect",
@@ -58,33 +58,35 @@
         "type": "DrawDefault"
       },
       {
-        "type": "DrawFlame",
-        "flameColor": "aaaaa00"
+        "type": "DrawRegion",
+        "spinSprite": true,
+        "suffix": "-spinner",
+        "rotateSpeed": 10
       }
     ]
   },
   "hasPower": true,
   "hasLiquids": false,
   "updateEffect": "none",
-  "ambientSound": "smelter",
-  "ambientSoundVolume": 0.07,
+  "ambientSound": "centrifuge",
+  "ambientSoundVolume": 0.2,
   "consumes": {
     "power": 3,
     "items": {
       "items": [
-        "steel/1",
-        "copper/1"
+        "blast-compound/1",
+        "sand/2"
       ]
     }
   },
   "requirements": [
-    "steel/45",
-    "lead/60",
-    "graphite/40"
+    "steel/60",
+    "copper/60",
+    "graphite/50"
   ],
   "envRequired": 0,
   "category": "crafting",
   "outputItems": [
-    "advanced-alloy/2"
+    "hp-dynamite/2"
   ]
 }
