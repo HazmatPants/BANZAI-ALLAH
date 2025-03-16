@@ -1,0 +1,33 @@
+{
+  "name": "BANZAI",
+  "description": "BAAAAAAAAAAAAAAAA BANZAI",
+  "type": "mech",
+  "health": 69,
+  "flying": false,
+  "range": 8,
+  "rangeMax": 8,
+  "weapons": [
+      {
+        "shake": 20,
+        "shootOnDeath": true,
+        "shootCone": 180,
+        "shootSound": "explosionbig",
+        "bullet": {
+          "name": "nuke-gun",
+          "type": "BasicBulletType",
+          "shootSound": "none",
+          "lifetime": 1000,
+          "speed": 2,
+          "splashDamageRadius": 150,
+          "splashDamage": 12000,
+          "frontColor": "ffff00",
+          "backColor": "00ffff",
+          "killShooter": true,
+          "instantDisappear": true,
+          "despawnEffect": "explosion",
+          "despawnHit": true,
+          "hitEffect": "reactorExplosion"
+        }
+      }
+  ]
+}

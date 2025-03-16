@@ -1,6 +1,6 @@
 {
-  "localizedName": Large Dynamite Block,
-  "description": A larger block of dynamite
+  "localizedName": "Large Dynamite Block",
+  "description": "A larger block of dynamite",
   "type": "Wall",
   "buildCostMultiplier": 2,
   "health": 180,
@@ -8,5 +8,5 @@
   "requirements": [
     "dynamite/16"
   ],
-  "category": "defense",
+  "category": "defense"
 }

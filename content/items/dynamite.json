@@ -2,7 +2,7 @@
     "type": "item",
     "name": "Dynamite",
     "color": "aaaa00",
-    "description": "High explosive compound"
-    "explosiveness": 1.5
+    "description": "High explosive compound",
+    "explosiveness": 1.5,
     "flammability": 1.25
 }
