@@ -1,0 +1,41 @@
+{
+    "type": "ItemTurret",
+    "localizedName": "Kalash",
+    "description": "AK-47 strapped to a turret.",
+    "reload": 3,
+    "range": 960,
+    "shootCone": 3,
+    "size": 2,
+    "maxAmmo": 30,
+    "health": 1200, 
+    "rotateSpeed": 4,
+    "shootShake": 5,
+    "shootSound": "kalash",
+    "ammoPerShot": 1,
+    "recoil": 14,
+    "inaccuracy": 3,
+    "ammoTypes": {
+      "lead": {
+        "damage": 20,
+        "speed": 8,
+        "width": 2,
+        "height": 15,
+        "shots": 1,
+        "pierce": false,
+        "type": "LaserBoltBulletType",
+        "lifetime": 120,
+        "length": 160,
+        "serrations": 8,
+        "fromColor": "FF8E38FF",
+        "toColor": "F3E979FF",
+        "smokeEffect": "shootBigSmoke",
+        "ammoMultiplier": 2
+      }
+    },
+    "requirements": [
+        "copper/50",
+        "steel/60"
+    ],
+    "category": "turret"
+  }
+  

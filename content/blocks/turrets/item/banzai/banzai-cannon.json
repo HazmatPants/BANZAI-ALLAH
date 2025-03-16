@@ -1,0 +1,48 @@
+{
+  "type": "ItemTurret",
+  "localizedName": "Banzai Cannon",
+  "description": "Banzai!!!",
+  "reload": 0,
+  "range": 70000,
+  "shootCone": 20,
+  "size": 12,
+  "maxAmmo": 479000,
+  "health": 1297834691823734572634958723487569834756234958723465923847562345873465837456384756, 
+  "rotateSpeed": 904,
+  "shootShake": 59,
+  "shootSound": "banzai",
+  "ammoPerShot": 1,
+  "recoil": 14,
+  "inaccuracy": 3,
+  "ammoTypes": {
+    "lead": {
+      "despawnEffect": "explosion",
+      "status": "burning",
+      "statusDuration": "1200",
+      "damage": 1297834691823734572634958723487569834756234958723465923847562345873465837456384756,
+      "speed": 120,
+      "width": 2,
+      "height": 15,
+      "shots": 12,
+      "pierce": "true",
+      "type": "LaserBoltBulletType",
+      "lifetime": 180013,
+      "length": 160,
+      "serrations": 8,
+      "fromColor": "FF8E38FF",
+      "toColor": "F3E979FF",
+      "shootEffect": "explosion",
+      "smokeEffect": "shootBigSmoke",
+      "hitEffect": "explosion",
+      "ammoMultiplier": 479000
+    }
+  },
+  "requirements": [
+    "copper/2000",
+    "lead/994",
+    "silicon/992",
+    "surge-alloy/69",
+    "advanced-alloy/900"
+  ],
+  "category": "turret"
+}

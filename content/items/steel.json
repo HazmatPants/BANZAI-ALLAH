@@ -1,0 +1,7 @@
+{
+    "type": "item",
+    "name": "Steel",
+    "color": "aaaaaa",
+    "description": "A sturdy alloy of iron and carbon.",
+	"research": "iron"
+}

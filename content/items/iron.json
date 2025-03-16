@@ -1,0 +1,7 @@
+{
+    "type": "item",
+    "name": "Iron",
+    "color": "bbaaaa",
+    "description": "Common building material.",
+	"research": "copper"
+}
