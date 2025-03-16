@@ -8,10 +8,8 @@
   "size": 12,
   "health": 12000, 
   "rotateSpeed": 1,
-  "shootShake": 5,
   "shootSound": "banzai",
   "recoil": 14,
-  "restitution": 0.9,
   "inaccuracy": 0,
   "hasPower": true,
   "consumes": {
