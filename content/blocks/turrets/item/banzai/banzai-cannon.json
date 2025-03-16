@@ -3,7 +3,7 @@
   "localizedName": "Banzai Cannon",
   "description": "Banzai!!!",
   "reload": 200,
-  "range": 6000,
+  "range": 1500,
   "shootCone": 20,
   "size": 12,
   "health": 12000, 
@@ -13,9 +13,14 @@
   "recoil": 14,
   "restitution": 0.9,
   "inaccuracy": 0,
+  "hasPower": true,
+  "consumes": {
+      "power": 45
+  },
   "shootType": {
     "type": "LaserBulletType",
-    "length": 1000,
+    "width": 90,
+    "length": 1500,
     "damage": 600,
     "buildingDamageMultiplier": 0.001,
     "chargeEffect": "lightningCharge"
