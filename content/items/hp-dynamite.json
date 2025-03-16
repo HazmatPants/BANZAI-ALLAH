@@ -2,7 +2,7 @@
     "type": "item",
     "name": "HP Dynamite",
     "color": "aaaa00",
-    "description": "High Performance Dynamite"
-    "explosiveness": 2.5
-    "flammability": 1.85
+    "description": "High Performance Dynamite",
+    "explosiveness": 4,
+    "flammability": 0.1
 }
