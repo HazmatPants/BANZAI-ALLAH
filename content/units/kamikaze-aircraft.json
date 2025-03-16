@@ -1,6 +1,6 @@
 {
   "name": "Kamikaze Aircraft",
-  "description": "A large but brittle aircraft used for... specific purposes. Mounted with 2 guns (will be in later builds) but they aren't the main use..."
+  "description": "A large but brittle aircraft used for... specific purposes. Mounted with 2 guns but they aren't the main use..."
   "singleTarget": true,
   "drawShields": false,
   "research": {
@@ -17,9 +17,9 @@
   "speed": 8,
   "accel": 0.02,
   "drag": 0.035,
-  "range": 180,
-  "maxRange": 180,
-  "aimDst": 430,
+  "range": 290,
+  "maxRange": 290,
+  "aimDst": 0,
   "faceTarget": true,
   "flying": true,
   "health": 2000,
@@ -31,4 +31,39 @@
   "lowAltitude": false,
   "targetAir": true,
   "commandLimit": 8,
+  "weapons": [
+    {
+      "name": "plane-gun",
+      "top": false,
+      "mirror": true,
+      "alternate": true,
+      "y": 8,
+      "x": 8,
+      "rotate": false,
+      "rotateSpeed": 3,
+      "inaccuracy": 3,
+      "shootY": 8,
+      "reload": 3,
+      "recoil": 0.1,
+      "shake": 0.5,
+      "shoot": {
+        "type": "shootPattern",
+        "shots": 1,
+        "shotDelay": 0
+      },
+      "shootSound": "kalash",
+      "bullet": {
+        "type": "BasicBulletType",
+        "shootEffect": "shootBigSmoke",
+        "knockback": 0.5,
+        "statusDuration": 50,
+        "status": "none",
+        "lifetime": 28,
+        "damage": 24,
+        "speed": 16,
+        "width": 4,
+        "height": 16,
+      }
+    },
+  ]
 }
