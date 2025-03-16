@@ -3,4 +3,6 @@
     "name": "Dynamite",
     "color": "aaaa00",
     "description": "High explosive compound"
+    "explosiveness": 0.6
+    "flammability": 1
 }

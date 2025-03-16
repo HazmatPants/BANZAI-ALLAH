@@ -1,11 +1,11 @@
 {
   "type": "GenericCrafter",
-  "localizedName": "ynamite Mixer",
+  "localizedName": "Dynamite Mixer",
   "description": "Mixes Pyratite and Sand into Dynamite.",
   "health": 700,
   "size": 2,
   "hasItems": true,
-  "craftTime":160,
+  "craftTime":130,
   "itemCapacity": 10,
   "craftEffect": {
     "type": "multiEffect",
@@ -74,8 +74,8 @@
     "power": 3,
     "items": {
       "items": [
-        "pyratite/1",
-        "sand/1"
+        "pyratite/2",
+        "sand/4"
       ]
     }
   },
