@@ -1,6 +1,6 @@
 {
   "type": "GenericCrafter",
-  "localizedName": "ynamite Mixer",
+  "localizedName": "Dynamite Mixer",
   "description": "Mixes Pyratite and Sand into Dynamite.",
   "health": 700,
   "size": 2,
