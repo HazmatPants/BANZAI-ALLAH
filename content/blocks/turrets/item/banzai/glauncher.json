@@ -1,30 +1,32 @@
 {
     "type": "ItemTurret",
-    "localizedName": "Kalash",
-    "description": "AK-47 strapped to a turret.",
-    "reload": 6,
-    "range": 384,
+    "localizedName": "Grenade Launcher",
+    "description": "Launches grenades.",
+    "reload": 90,
+    "range": 480,
     "shootCone": 6,
     "size": 2,
     "maxAmmo": 30,
-    "health": 1200, 
-    "rotateSpeed": 6,
+    "health": 1600, 
+    "rotateSpeed": 3,
     "shootShake": 5,
-    "shootSound": "kalash",
+    "shootSound": "glauncher",
     "ammoPerShot": 1,
-    "recoil": 2,
-    "restitution": 0.9,
-    "inaccuracy": 3,
+    "recoil": 8,
+    "restitution": 0.98,
+    "inaccuracy": 0,
     "ammoTypes": {
-      "lead": {
+      "blast-compound": {
         "damage": 20,
-        "speed": 16,
-        "width": 2,
+        "speed": 6,
+        "width": 6,
         "height": 15,
         "shots": 1,
+        "splashDamageRadius": 32,
+        "splashDamage": 90,
         "pierce": false,
-        "type": "BasicBulletType",
-        "lifetime": 24,
+        "type": "ArtilleryBulletType",
+        "lifetime": 80,
         "length": 160,
         "serrations": 8,
         "fromColor": "FF8E38FF",
@@ -34,8 +36,8 @@
       }
     },
     "requirements": [
-        "copper/50",
-        "steel/60"
+        "copper/80",
+        "steel/120"
     ],
     "category": "turret"
   }
